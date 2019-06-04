@@ -1,0 +1,18 @@
+<!DOCTYPEhtml>
+<htmllang="en">
+
+<head>
+    <metacharset="UTF-8">
+</head>
+<body>
+    <p>要爬取的網頁是 PTT 八卦版：</p>
+        <form action="/home/POST_crawl/"method="post">{% csrf_token %}
+        你想要幾頁的資料:<input type="text" name="title"> <br>
+		
+		<form action="/home/POST_crawl/"method="post">{% csrf_token %}
+        你的API key:<input type="text" name="APIkey"> <br>
+
+        <input type="submit"value="送出">
+    </form>
+</body>
+</html>

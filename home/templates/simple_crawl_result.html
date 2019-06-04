@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>您爬取的結果如下：共{{articlenumber}}篇文章</h2>
+    <p> {{country_to_count}} </p>
+    <p> {{author}} </p>
+    <p> {{title}} </p>
+    <p> {{iptotal}} </p>
+    <p> {{countryT}} </p>
+	<h2>已輸出檔案「產生的文件檔案.csv」</h2>
+
+
+	<table border="1" style="display:inline;">
+		<th>作者</th>
+		{% for autho in author  %}
+		<tr>
+			<td>{{autho}}</td>	
+		</tr>
+		{% endfor %}
+	</table>
+
+	<table border="1" style="display:inline;">
+		<th>標題</th>
+		{% for titl in title  %}
+		<tr>
+			<td>{{titl}}</td>	
+		</tr>
+		{% endfor %}
+	</table>
+
+
+
+	<table border="1" style="display:inline;">
+		<th>Ip</th>
+		{% for iptota in iptotal  %}
+		<tr>
+			<td>{{iptota}}</td>	
+		</tr>
+		{% endfor %}
+	</table>
+
+	
+	<table border="1" style="display:inline;">
+		<th>國家</th>
+		{% for country in countryT  %}
+		<tr>
+			<td>{{country}}</td>	
+		</tr>
+		{% endfor %}
+	</table>
+
+
+
+
+
+
+
+</body>
+</html>
