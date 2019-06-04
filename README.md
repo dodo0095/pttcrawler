@@ -10,14 +10,14 @@ step2 安裝一下套件
 到命令提示去輸入
 
 pip install django <br>
-pip install bs4 
-pip install requests
-pip install time
-pip install re
-pip install beautifulsoup4
-pip install csv
-pip install datetime
-pip install numpy
+pip install bs4  <br>
+pip install requests <br>
+pip install time <br>
+pip install re <br>
+pip install beautifulsoup4 <br>
+pip install csv <br>
+pip install datetime <br>
+pip install numpy <br>
 
 step3 把整個資料夾抓下來放桌面
 
