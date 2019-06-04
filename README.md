@@ -9,7 +9,7 @@ step2 安裝一下套件
 
 到命令提示去輸入
 
-pip install django
+pip install django <br>
 pip install bs4 
 pip install requests
 pip install time
